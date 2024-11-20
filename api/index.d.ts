@@ -38,7 +38,7 @@ declare namespace OverwatchAPI {
         games: {
             quickplay: {
                 won: number,
-                played: number,
+                played?: number,
             },
             competitive: {
                 won: number,
